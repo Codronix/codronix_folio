@@ -1,0 +1,87 @@
+body{
+    background: #faf5e4;
+    font-family: "Exo 2";
+}
+.nav-custom-primary {
+    background-color: #186F65;
+}
+.custom-header-navbar{
+    font-family: 'Exo 2'; font-weight: 700; padding-top: 7.5px;
+}
+.custom-header-navbar .nav-link{
+    color: #B5CB99;
+    font-size: 16px;
+}
+.custom-header-navbar .nav-link:hover{
+    color: #FCE09B;
+}
+.navbar-brand{
+    font-weight: bold; font-family: 'Exo 2'; font-weight: 900; font-size: 24pt; color: #FCE09B;
+}
+.navbar-brand:hover{
+    color: #FCE09B;
+}
+.navbar-brand:visited{
+    color: #FCE09B;
+}
+img {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 5px;
+    width: 300px;
+    margin-top: 50px;
+    box-shadow: 0 0 2px 1px #186F65
+}
+
+.section_container {
+    font-family: 'Exo 2'; margin-top: 170px;
+}
+
+textarea{
+    resize: none;
+}
+
+/* CONTROL PANEL CSS */
+.sidebar .nav-link{
+    cursor: pointer;
+    color: #B5CB99;
+}
+
+.sidebar .nav-link:hover{
+    color: #FCE09B;
+}
+.section-title {
+    margin-top: 20px;
+    font-weight: 700;
+}
+.sidebar-active {
+    background-color: #B2533E !important;
+    color: white !important;
+}
+
+.sidebar hr{
+    color: #FCE09B;
+}
+
+.box-container {
+    border-radius: 10px;
+    padding: 8px;
+    margin-right: 25px;
+    background-color: #186F65;
+    color: #FCE09B;
+}
+
+.box-container span{
+    font-weight: bold;
+}
+
+.login-form{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    width: 30%;
+}
+
+/* CONTROL PANEL CSS */
