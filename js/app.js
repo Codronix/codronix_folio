@@ -1,6 +1,6 @@
 export let computeLevelProgress = (xp) => {
         // Base scaling factor (standard Code::Stats uses 300)
-        const scalingBase = 300;
+        const scalingBase = 100;
 
         // Compute the level
         let level = Math.floor(Math.pow(xp / scalingBase, 1 / 3));
