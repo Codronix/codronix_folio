@@ -32,7 +32,7 @@ export const getCodeStats = async () => {
         const response = await fetch('https://codestats.net/api/users/zedrik-pineda');
         const respData = Object.values(await response.json());
 
-        const excludedLanguages = ["Log", "Plain text", "Properties", "scminput"];
+        const languages = ["PHP", "JavaScript", "Blade", "CSS", "HTML", "Blade", "SQL"];
 
         let dateCount = 0;
         let startDate = "";
@@ -49,7 +49,7 @@ export const getCodeStats = async () => {
         let data = "";
         // Loop languages
         Object.entries(respData[1]).forEach(([language, exp_data]) => {
-            if (!excludedLanguages.includes(language)) {
+            if (languages.includes(language)) {
                 let level = computeLevelProgress(exp_data.xps);
                 data += `
                             <div class="col-md-6 col-sm-12">
